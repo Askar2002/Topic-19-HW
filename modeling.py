@@ -14,7 +14,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 uploaded_file = st.file_uploader("train.csv")
 if uploaded_file is not None:
-    train = pd.read_csv(train.csv)
+    train = pd.read_csv("train.csv")
 
     # === encoding ===
     # encode categorical variables
