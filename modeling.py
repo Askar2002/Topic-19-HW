@@ -4,6 +4,7 @@ import streamlit as st
 import numpy as np 
 import pandas as pd
 from math import sqrt
+import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn import linear_model
 from sklearn import preprocessing
